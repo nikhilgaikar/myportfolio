@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="sidebartesting.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Document</title>
+</head>
+<body> 
+  <div class="container">
+    <div class="header">
+      <i class="fa-solid fa-bars hamburger" onclick="toggleSidebar()"></i>
+      <h1>Nikhil Gaikar</h1>
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Leave a Message!</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <nav class="sidebar" id="sidebar">
+      
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-xmark closebutton" onclick="closesidebar()"></i>
+    </nav>
+
+    <div class="about" id="about">
+      <div class="image-wrapper">
+        <img class="image" alt="your photograph" src="person.jpg">
+      </div>
+      
+      <h1 class="name">Hey! I'm Nikhil</h1>
+      <div class="about-content">
+        <span class="info">
+          Hi! I’m Marcus Williams, a passionate Software Engineer with over 5 years of experience building innovative, user-friendly applications...
+        </span>
+
+        <div class="education-section">
+          <h2>Education</h2>
+          <div class="education-cards">
+            <div class="education-card">
+              <h3>SSC</h3>
+              <p>R.M.Bhatt High School, Mumbai</p>
+              <p>2018 – 2019 | 81%</p>
+            </div>
+            <div class="education-card">
+              <h3>HSC - Science</h3>
+              <p>Ramnarain Ruia Junior College, Mumbai</p>
+              <p>2019 – 2021 | 85%</p>
+            </div>
+            <div class="education-card">
+              <h3>Bachelor of Computer Applications</h3>
+              <p>S. K. Somaiya College, Somaiya Vidyavihar University, Mumbai</p>
+              <p>2023 – (expected)2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-section" id="projects">
+      <h1>Projects</h1>
+      <div class="projects">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <h1>Skills</h1>
+      <div class="skills-container">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-python"></i>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <h1>Leave a Message!</h1>
+      <div class="lm-container">
+        <a href="https://www.instagram.com/nikhilgaikar.09/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/nikhilgaikar" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nikhil-gaikar-56a51b326/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="footer">This is footer</div>
+  </div>
+  <script src = "portfolio.js"></script>
+</body>
+</html>
+
+
+
+
+   does displa flex with active mean show?
+    what is active?
+    what is classlist?
+    is classlist for toggling only?
+    if yes do they  have two options only?
+    what if we have more that two options?
+    what is add and remove?
+    what is eventlistner whre should we use it while building somethng
