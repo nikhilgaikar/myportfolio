@@ -63,7 +63,7 @@ html {
     }
     .nav-desktop ul li a:hover {
       color: black;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease-in-out;
     }
     .about {
       grid-area: about;
